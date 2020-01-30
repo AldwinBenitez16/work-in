@@ -1,18 +1,24 @@
 {
-  "name": "bem-project",
+  "name": "wrok-in",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "webpack"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AldwinBenitez16/bem-project.git"
+    "url": "git+https://github.com/AldwinBenitez16/work-in.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AldwinBenitez16/bem-project/issues"
+    "url": "https://github.com/AldwinBenitez16/work-in/issues"
   },
-  "homepage": "https://github.com/AldwinBenitez16/bem-project#readme"
+  "homepage": "https://github.com/AldwinBenitez16/work-in#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
 }
