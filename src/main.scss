@@ -1,3 +1,51 @@
-
-
 @import "~bootstrap/scss/bootstrap";
+
+.navbar {
+    position: absolute;
+    width: 100vw;
+}
+
+.main {
+
+}
+
+.section {
+
+}
+
+.section__theme-landing-page {
+    height: 100vh;
+    background-image: url("./assets/landing-page.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+
+    .section_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+        margin-left: 10%;
+
+        .section_container {
+    
+        }
+    }
+
+    .btn {
+        max-width: 200px;
+    }
+}
+
+.section__theme-overview {
+
+}
+
+.section__theme-about {
+    
+}
+
+.section__theme-contacts {
+
+}
