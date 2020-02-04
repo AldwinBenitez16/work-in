@@ -1,3 +1,12 @@
 .navbar {
-    background-color: #222125 !important;
+    .navbar-toggler {
+        border: 1px solid rgba(255, 255, 255, 0);
+        outline: none;
+        transition: border .25s ease-in-out;
+        padding: 2px 5px;
+    }
+
+    .navbar-toggler:hover {
+        border: 1px solid rgba(255, 255, 255, 0.6);
+    }
 }

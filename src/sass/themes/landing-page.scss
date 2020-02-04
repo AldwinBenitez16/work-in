@@ -1,6 +1,8 @@
 .section__theme-landing-page {
     height: 100vh;
-    background-image: url("../assets/landing-page.jpg");
+    background-image: 
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.12), rgba(161, 48, 199, 0.93)),
+    url("../assets/landing-page.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -13,9 +15,26 @@
         height: 100%;
         margin-left: 10%;
 
-        .section_container {
-    
+        @include breakpoint($xs) {
+            width: 90%;
+            margin: 0 auto;
         }
+    }
+
+    .section_header {
+        color: white;
+        border: none;
+        width: fit-content;
+        margin: 0;
+    }
+
+    .section_span {
+        color: #f7f772;
+    }
+
+    .section_paragraph {
+        margin: 10px 0;
+        color: black;
     }
 
     .btn {
