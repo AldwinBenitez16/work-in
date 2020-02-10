@@ -1,0 +1,29 @@
+.carousel {
+    width: 80%;
+    margin: 40px auto;
+    max-width: 800px;
+
+    .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(transparent, rgba(37, 37, 38, .8));
+    }
+
+    @include breakpoint($xs) {
+        width: 100%;
+        .carousel-caption {
+            display: block !important;
+            
+            .carousel_title {
+                display: block;
+            }
+
+            .carousel_paragraph {
+                display: none;
+            }
+        }
+    }
+}

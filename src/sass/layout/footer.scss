@@ -1,0 +1,33 @@
+.footer {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c63b0;
+    color: #fff;
+
+    .footer_paragraph {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .icons {
+        padding: 10px;
+        width: fit-content;
+
+        .icons_link {
+            cursor: pointer;
+        }
+
+        .icons_icon {
+            fill: #fff;
+            opacity: .5;
+            transition: opacity .25s ease-in-out;
+        }
+
+        .icons_icon:hover {
+            opacity: 1;
+        }
+    }
+}

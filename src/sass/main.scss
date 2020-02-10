@@ -12,10 +12,13 @@
 
 // layout
 @import "./layout/navigation.scss";
+@import "./layout/footer.scss";
 
 // components
 @import "./components/section.scss";
 @import "./components/navbar.scss";
+@import "./components/carousel.scss";
+@import "./components/main.scss";
 
 // pages
 @import "./pages/home.scss";
