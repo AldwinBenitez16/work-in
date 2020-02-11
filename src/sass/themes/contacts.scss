@@ -1,3 +1,56 @@
 .section__theme-contacts {
+    margin: 0 auto;
+    max-width: 1200px;
 
+    .section_hr {
+        margin: 0;
+    }
+
+    .form__theme-contacts {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: 40px auto;
+
+        .form__type-input {
+            border: none;
+            padding: 10px;
+            border-bottom: 1px solid #252526;
+            margin-right: 5px;
+            outline: 0;
+        }
+
+        .form_margin-bottom {
+            margin-bottom: 20px;
+        }
+
+        .form_first {
+            width: calc(50% - 5px);
+        }
+
+        .form_last {
+            width: calc(50% - 5px);
+        }
+
+        .form_email {
+            width: 100%;
+            margin-right: 0;
+        }
+
+        .form_textarea {
+            width: 100%;
+            border: none;
+            padding: 10px;
+            border: 1px solid #252526;
+            height: 100px;
+        }
+
+        .form_submit {
+            width: 20%;
+            padding: 8px 5px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+        }
+    }
 }
