@@ -31,3 +31,7 @@
 @import "./themes/overview.scss";
 @import "./themes/about.scss";
 @import "./themes/contacts.scss";
+
+html {
+    scroll-behavior: smooth;
+}
