@@ -1,9 +1,14 @@
 .section__theme-contacts {
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 1200px;
 
+    .section_header {
+        text-align: center;
+    }
+
     .section_hr {
-        margin: 0;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .form__theme-contacts {
@@ -51,6 +56,28 @@
             color: #fff;
             background-color: #007bff;
             border: none;
+        }
+    }
+
+    @include breakpoint($xs) {
+        .form__theme-contacts {
+            width: 90%;
+            padding: 10px;
+            margin: 0 auto;
+
+            .form_first {
+                width: 100%;
+                margin-right: 0;
+            }
+    
+            .form_last {
+                width: 100%;
+                margin-right: 0;
+            }
+
+            .form_submit {
+                width: fit-content;
+            }
         }
     }
 }

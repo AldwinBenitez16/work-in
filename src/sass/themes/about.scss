@@ -1,6 +1,14 @@
 .section__theme-about {
-    .aside {
+    margin: 20px auto;
+    max-width: 1200px;
 
+    .section_header {
+        text-align: center;
+    }
+
+    .section_hr {
+        width: 80%;
+        margin: 0 auto;
     }
 
     .aside__theme-cards {

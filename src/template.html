@@ -7,7 +7,7 @@
     <title>Fit-In</title>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
-<body class="body">
+<body class="body" data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand" href="#">
@@ -21,13 +21,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
           </ul>
         </div>
@@ -43,8 +43,10 @@
                 </p>
                 <button type="button" class="btn btn-outline-primary">Sign Up</button>
             </div>
-        </section>
+        </section> 
         <section class="section section__theme-about">
+            <h2 id="about" class="section_header">About Fit-In</h2>
+            <hr class="section_hr"/>
             <!-- Cards -->
             <aside class="aside aside__theme-cards">
                 <div class="topic">
@@ -111,7 +113,7 @@
               </div>
         </section> 
         <section class="section section__theme-contacts">
-            <h2>Contact Me</h2>
+            <h2 id="contact" class="section_header">Contact Me</h2>
             <hr class="section_hr"/>
             <form class="form form__theme-contacts">
                 <input class="form_first form__type-input form_margin-bottom" placeholder="First Name" />
