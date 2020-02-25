@@ -29,5 +29,9 @@
         .icons_icon:hover {
             opacity: 1;
         }
+
+        .icons_icon:first-child {
+            margin-right: 5px;
+        }
     }
 }
